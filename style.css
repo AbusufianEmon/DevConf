@@ -92,6 +92,7 @@ button {
     font-size: 70px;
     color: #fff;
     font-weight: 900;
+    text-align: center;
 }
 
 .hero-text span {
@@ -288,6 +289,51 @@ ul li::marker {
     border: 1.5px solid #3730f2;
 }
 
+.why-attend {
+    justify-items: center;
+    margin-top: 100px;
+    padding: 10px;
+}
+
+.attend {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 28px;
+}
+
+.attend-grid {
+    background-color: #ffffff;
+    border-radius: 8px;
+    border: 1px solid #e5e7eb; 
+    overflow: hidden;
+    padding: 30px;
+}
+
+.attend-grid h3 {
+    font-size: 20px;
+    padding: auto;
+    margin-top: 25px;
+    margin-bottom: 8px;
+}
+.attend-grid p {
+    padding: auto;
+
+}
+
+.icons {
+    background-color: #dfe0ea;
+    color: #2f19d5;
+    width: 28px;
+    height: 28px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
 
 footer {
     background-color: #d3d8dd;
@@ -306,3 +352,4 @@ footer {
 .logo a {
     color: #0a0c21;
 }
+
