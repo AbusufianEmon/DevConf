@@ -205,7 +205,7 @@ button {
 }
 
 .pricing-plans-cards {
-    background-color: #ffffff;
+    background-color: #f4f8fc;
     border-radius: 8px;
     border: 1px solid #e5e7eb; 
     overflow: hidden; 
@@ -286,4 +286,23 @@ ul li::marker {
     background-color: #ffff;
     color: #3730f2;
     border: 1.5px solid #3730f2;
+}
+
+
+footer {
+    background-color: #d3d8dd;
+    padding: 50px 40px 30px;
+    margin-top: 50px;
+}
+.logos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.copyright-text {
+    text-align: center;
+}
+
+.logo a {
+    color: #0a0c21;
 }
