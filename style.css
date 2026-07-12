@@ -224,6 +224,8 @@ button {
     border: 1px solid #e5e7eb; 
     overflow: hidden; 
     padding: 20px;
+    display: flex;
+    flex-direction: column;
 }
 
 .price-tier {
@@ -267,6 +269,7 @@ button {
 }
 
 .card-details {
+    flex: 1;
     padding: 0 20px 20px;
 }
 
@@ -356,7 +359,7 @@ ul li::marker {
 }
 
 footer {
-    background-color: #d3d8dd;
+    background-color: #c1cbd5;
     padding: 50px 40px 30px;
     margin-top: 50px;
 }
@@ -366,7 +369,14 @@ footer {
 }
 
 .copyright-text {
-    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.copyright-text a {
+    text-decoration: none;
+    padding-left: 20px;
+    color: #0a0c21;
 }
 
 .logo a {
